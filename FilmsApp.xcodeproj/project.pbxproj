@@ -18,6 +18,9 @@
 		7B89EE192AE1D58D00BD5632 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B89EE182AE1D58D00BD5632 /* Constants.swift */; };
 		7BED47022AE796C5006B69AF /* ManagerConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED47012AE796C5006B69AF /* ManagerConnections.swift */; };
 		7BED47042AE7A0EC006B69AF /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED47032AE7A0EC006B69AF /* Movies.swift */; };
+		9B6AF0562AF874F300A625C5 /* CustomMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AF0542AF874F300A625C5 /* CustomMovieCell.swift */; };
+		9B6AF0572AF874F300A625C5 /* CustomMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AF0552AF874F300A625C5 /* CustomMovieCell.xib */; };
+		9B6AF05A2AF87C6F00A625C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AF0592AF87C6F00A625C5 /* Extensions.swift */; };
 		9D76CB973FBCB2926DBCC3DD /* Pods_FilmsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7341ECA0766770F9B5EA78A8 /* Pods_FilmsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		7B89EE182AE1D58D00BD5632 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7BED47012AE796C5006B69AF /* ManagerConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerConnections.swift; sourceTree = "<group>"; };
 		7BED47032AE7A0EC006B69AF /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		9B6AF0542AF874F300A625C5 /* CustomMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMovieCell.swift; sourceTree = "<group>"; };
+		9B6AF0552AF874F300A625C5 /* CustomMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMovieCell.xib; sourceTree = "<group>"; };
+		9B6AF0592AF87C6F00A625C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 			children = (
 				7B832EB72AD662040038F809 /* HomeViewViewController.swift */,
 				7B832EB82AD662040038F809 /* HomeViewViewController.xib */,
+				9B6AF0542AF874F300A625C5 /* CustomMovieCell.swift */,
+				9B6AF0552AF874F300A625C5 /* CustomMovieCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 		7B89EE172AE1D55500BD5632 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				9B6AF0582AF87C2400A625C5 /* Extensions */,
 				7B89EE182AE1D58D00BD5632 /* Constants.swift */,
 			);
 			path = Commons;
@@ -159,6 +168,14 @@
 				7BED47012AE796C5006B69AF /* ManagerConnections.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		9B6AF0582AF87C2400A625C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AF0592AF87C6F00A625C5 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C1142D90CE00381F2C6E39D7 /* Pods */ = {
@@ -233,6 +250,7 @@
 				7B832EBA2AD662040038F809 /* HomeViewViewController.xib in Resources */,
 				7B832EAE2AD660BD0038F809 /* LaunchScreen.storyboard in Resources */,
 				7B832EAB2AD660BD0038F809 /* Assets.xcassets in Resources */,
+				9B6AF0572AF874F300A625C5 /* CustomMovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +308,8 @@
 				7BED47042AE7A0EC006B69AF /* Movies.swift in Sources */,
 				7B832EA22AD660B90038F809 /* AppDelegate.swift in Sources */,
 				7BED47022AE796C5006B69AF /* ManagerConnections.swift in Sources */,
+				9B6AF05A2AF87C6F00A625C5 /* Extensions.swift in Sources */,
+				9B6AF0562AF874F300A625C5 /* CustomMovieCell.swift in Sources */,
 				7B832EB92AD662040038F809 /* HomeViewViewController.swift in Sources */,
 				7B832EA42AD660B90038F809 /* SceneDelegate.swift in Sources */,
 				7B89EE192AE1D58D00BD5632 /* Constants.swift in Sources */,

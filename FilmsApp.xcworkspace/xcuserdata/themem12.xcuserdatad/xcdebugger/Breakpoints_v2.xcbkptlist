@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F4812F8B-3F73-45A2-A83E-3AB92DE57283"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A7975CA-9B99-41FD-B4A7-B2C1AB72CE21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmsApp/HomeView/View/HomeViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "manageSearchBarController()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A7975CA-9B99-41FD-B4A7-B2C1AB72CE21 - 2bcbfce6f3d1147b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in FilmsApp.HomeViewViewController.manageSearchBarController() -&gt; ()"
+                  moduleName = "FilmsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/themem12/Desktop/movie-app-ios/FilmsApp/HomeView/View/HomeViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "5A7975CA-9B99-41FD-B4A7-B2C1AB72CE21 - c0c6458af6e4dc56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FilmsApp.Movie) -&gt; Swift.Bool in closure #1 (Swift.String) -&gt; () in FilmsApp.HomeViewViewController.manageSearchBarController() -&gt; ()"
+                  moduleName = "FilmsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/themem12/Desktop/movie-app-ios/FilmsApp/HomeView/View/HomeViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A824AF3-A743-488C-8F43-B351211108F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmsApp/HomeView/View/HomeViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "manageSearchBarController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "254105AC-D1E2-4D66-AF33-55D947B7D8CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmsApp/HomeView/View/HomeViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "manageSearchBarController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

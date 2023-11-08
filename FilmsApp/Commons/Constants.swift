@@ -5,7 +5,7 @@
 //  Created by Saavedra, Guillermo on 19/10/23.
 //
 
-import Foundation
+import UIKit
 
 struct Constant {
     
@@ -20,4 +20,6 @@ struct Constant {
         static let urlPopularMoviesList = "3/movie/popular"
         static let detailMovie = "3/movie/"
     }
+    
+    static let moviePlaceHolderImage = UIImage(named: "movie_placeholder")!
 }
